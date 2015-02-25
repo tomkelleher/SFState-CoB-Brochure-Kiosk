@@ -1,0 +1,20 @@
+/* CoB Header Bar Style */
+.bar.bar-CoB {
+    border-color: #ddd;
+    background-color: #3B0B3D;
+    background-image: linear-gradient(0deg, #3B0B3D, #3B0B3D 50%, transparent 50%);
+    color: #444; }
+    .bar.bar-CoB .title {
+      color: #444; }
+    .bar.bar-CoB.bar-footer {
+      background-image: linear-gradient(180deg, #3B0B3D, #3B0B3D 50%, transparent 50%); }
+
+/* Disabled Bustton Style */
+.disabled {
+  pointer-events: none; /* Disables the button completely. Better than just cursor: default; */
+  opacity: 0.25;
+  background-color: #eee;
+}
+/*.disabled h2, p {
+	color: #ccc !important;
+}*/
